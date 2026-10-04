@@ -1,10 +1,8 @@
-
 from flask import Flask, request, jsonify
 import datetime
 import os
 from twilio.rest import Client
 from dotenv import load_dotenv
-
 # Load environment variables from .env file
 load_dotenv()
 
